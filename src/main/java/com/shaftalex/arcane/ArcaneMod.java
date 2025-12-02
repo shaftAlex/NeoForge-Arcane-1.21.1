@@ -1,6 +1,7 @@
 package com.shaftalex.arcane;
 
 import com.shaftalex.arcane.block.ModBlocks;
+import com.shaftalex.arcane.item.ModCreativeModeTabs;
 import com.shaftalex.arcane.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -33,6 +34,8 @@ public class ArcaneMod {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
