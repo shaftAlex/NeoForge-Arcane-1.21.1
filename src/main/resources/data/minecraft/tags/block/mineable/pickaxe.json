@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "arcane:bismuth_block",
+    "arcane:bismuth_ore",
+    "arcane:bismuth_deepslate_ore"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "bismuth",
+  "ingredient": {
+    "item": "arcane:bismuth_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcane:bismuth"
+  }
+}
